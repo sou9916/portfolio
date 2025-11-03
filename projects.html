@@ -1,136 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects - Sourabh Katti</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects - Sourabh Katti</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav id="nav">
-        <div class="container">
-            <div class="logo">SK</div>
-            <button class="menu" id="menu">☰</button>
-            <ul class="links" id="links">
-                <li><a href="index.html" class="link">Home</a></li>
-                <li><a href="about.html" class="link">About</a></li>
-                <li><a href="education.html" class="link">Education</a></li>
-                <li><a href="experience.html" class="link">Experience</a></li>
-                <li><a href="projects.html" class="link active">Projects</a></li>
-                <li><a href="skills.html" class="link">Skills</a></li>
-                <li><a href="contact.html" class="link">Contact</a></li>
-            </ul>
+  <!-- Navigation -->
+  <nav id="nav">
+    <div class="container">
+      <div class="logo">SK</div>
+      <button class="menu" id="menu">☰</button>
+      <ul class="links" id="links">
+        <li><a href="index.html" class="link">Home</a></li>
+        <li><a href="about.html" class="link">About</a></li>
+        <li><a href="education.html" class="link">Education</a></li>
+        <li><a href="projects.html" class="link active">Projects</a></li>
+        <li><a href="skills.html" class="link">Skills</a></li>
+        <li><a href="contact.html" class="link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Projects Section -->
+  <section id="projects" class="page">
+    <div class="content">
+      <h2 class="title fade">Projects</h2>
+
+      <div class="project fade">
+        <div class="header">
+          <h3>AI Based Crop Recommendation System</h3>
+          <span class="date">Sep 2024</span>
         </div>
-    </nav>
-
-    <!-- Projects Section -->
-    <section id="projects" class="page">
-        <div class="content">
-            <h2 class="title fade">Personal Projects</h2>
-            
-            <div class="project fade">
-                <div class="header">
-                    <h3>AI Based Crop Recommendation System</h3>
-                    <span class="date">September 2024</span>
-                </div>
-                <div class="role">Role: Frontend Developer</div>
-                
-                <div class="description">
-                    <p class="text">
-                        An intelligent AI-based system that recommends the most suitable crops for cultivation 
-                        by analyzing soil composition, weather patterns, and environmental data using advanced 
-                        machine learning algorithms.
-                    </p>
-                </div>
-                
-                <div class="features">
-                    <h4>Key Features:</h4>
-                    <ul>
-                        <li>📸 Image-based soil analysis - Upload soil images for instant crop recommendations</li>
-                        <li>🌡️ IoT sensor integration - Real-time data collection from field sensors</li>
-                        <li>🧪 NPK value input - Manual entry of Nitrogen, Phosphorus, Potassium levels</li>
-                        <li>🌾 Smart crop suggestions based on soil health and weather conditions</li>
-                        <li>📊 Data visualization for better decision making</li>
-                        <li>📱 Responsive design for mobile and desktop platforms</li>
-                    </ul>
-                </div>
-                
-                <div class="tech">
-                    <strong>Technologies Used:</strong>
-                    <span class="tag">React Native</span>
-                    <span class="tag">CSS</span>
-                    <span class="tag">Machine Learning</span>
-                    <span class="tag">MongoDB</span>
-                    <span class="tag">REST APIs</span>
-                    <span class="tag">IoT Integration</span>
-                </div>
-            </div>
-            
-            <div class="project fade">
-                <div class="header">
-                    <h3>AI Based Recommendation System (BaaS Model)</h3>
-                    <span class="date">November 2024</span>
-                </div>
-                <div class="role">Role: Frontend Developer</div>
-                
-                <div class="description">
-                    <p class="text">
-                        Developed a Backend as a Service (BaaS) model that provides intelligent recommendation 
-                        capabilities for various domains including movies, music, e-commerce products, and more. 
-                        The system learns from user behavior to provide personalized suggestions.
-                    </p>
-                </div>
-                
-                <div class="features">
-                    <h4>Key Features:</h4>
-                    <ul>
-                        <li>🎬 Movie recommendations based on viewing history and preferences</li>
-                        <li>🎵 Music suggestions tailored to user taste</li>
-                        <li>🛒 E-commerce product recommendations</li>
-                        <li>🤖 Advanced ML algorithms for pattern recognition</li>
-                        <li>⚡ Real-time recommendation engine</li>
-                        <li>🔄 CI/CD pipelines for seamless deployment</li>
-                        <li>📈 Scalable architecture for handling large user bases</li>
-                    </ul>
-                </div>
-                
-                <div class="tech">
-                    <strong>Technologies Used:</strong>
-                    <span class="tag">Machine Learning</span>
-                    <span class="tag">Recommendation Engine</span>
-                    <span class="tag">CI/CD Pipelines</span>
-                    <span class="tag">Python</span>
-                    <span class="tag">APIs</span>
-                    <span class="tag">Cloud Services</span>
-                </div>
-            </div>
-            
-            <div class="card fade">
-                <h3 class="subtitle center">Project Highlights</h3>
-                <div class="grid">
-                    <div class="highlight">
-                        <div class="number">2+</div>
-                        <p>Major Projects</p>
-                    </div>
-                    <div class="highlight">
-                        <div class="number">10+</div>
-                        <p>Technologies Used</p>
-                    </div>
-                    <div class="highlight">
-                        <div class="number">100%</div>
-                        <p>Functional Applications</p>
-                    </div>
-                </div>
-            </div>
+        <p class="text">AI model suggesting ideal crops using soil, weather & IoT data.</p>
+        <div class="tech">
+          <strong>Tech:</strong>
+          <span class="tag">React Native</span>
+          <span class="tag">Machine Learning</span>
+          <span class="tag">MongoDB</span>
+          <span class="tag">IoT</span>
         </div>
-    </section>
+      </div>
 
-    <!-- Footer -->
-    <footer id="foot">
-        <p>© 2025 Sourabh Katti. All rights reserved.</p>
-    </footer>
+      <div class="project fade">
+        <div class="header">
+          <h3>AI Based Recommendation System (BaaS)</h3>
+          <span class="date">Nov 2024</span>
+        </div>
+        <p class="text">Backend model delivering smart content recommendations in real-time.</p>
+        <div class="tech">
+          <strong>Tech:</strong>
+          <span class="tag">Python</span>
+          <span class="tag">ML</span>
+          <span class="tag">APIs</span>
+          <span class="tag">Cloud</span>
+        </div>
+      </div>
 
-    <script src="script.js"></script>
+      <div class="card fade">
+        <h3 class="subtitle center">Highlights</h3>
+        <div class="grid">
+          <div class="highlight">
+            <div class="number">2+</div>
+            <p>Major Projects</p>
+          </div>
+          <div class="highlight">
+            <div class="number">10+</div>
+            <p>Technologies</p>
+          </div>
+          <div class="highlight">
+            <div class="number">100%</div>
+            <p>Functional Apps</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="foot">
+    <p>© 2025 Sourabh Katti. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
